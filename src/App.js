@@ -11,7 +11,7 @@ import Body2 from "./components/body2";
 import Body3 from "./components/body3";
 import Footer from "./components/footer";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [stories, setStories] = useState([
