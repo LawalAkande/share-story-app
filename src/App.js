@@ -107,7 +107,7 @@ function App() {
         <Router>
           <Switch>
             <Route
-              path="/home"
+              path="/"
               render={() => (
                 <div>
                   <Body onAddStory={handleAddStory} />

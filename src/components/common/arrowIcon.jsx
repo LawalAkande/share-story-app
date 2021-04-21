@@ -10,7 +10,7 @@ const ArrowIcon = () => {
     return (
         <div>
             <span onClick={theIcon}>
-                {icon ? <i className="fa fa-arrow-down"></i> : <i className="fa fa-arrow-up"></i>}
+                {icon ? <i className="fa fa-arrow-up"></i> : <i className="fa fa-arrow-down"></i>}
             </span>
         </div>
     )
